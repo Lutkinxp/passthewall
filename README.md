@@ -42,7 +42,7 @@ The "passthewall" script is a powerful tool for password recovery, suitable for 
  
 
 
-        git clone https://github.com/username/passthewall.git
+        git clone https://github.com/Lutkinxp/passthewall.git
 
 Downloading as ZIP:
    Go to the repository page in your web browser.
@@ -59,7 +59,7 @@ Linux
 
         
 
-        git clone https://github.com/username/passthewall.git
+        git clone https://github.com/Lutkinxp/passthewall.git
 
 Downloading as TAR.GZ:
 
@@ -79,7 +79,7 @@ Mac
 
        
 
-        git clone https://github.com/username/passthewall.git
+        git clone https://github.com/Lutkinxp/passthewall.git
 
    Downloading as ZIP:
         Go to the repository page in your web browser.
