@@ -40,7 +40,7 @@ The "passthewall" script is a powerful tool for password recovery, suitable for 
  Navigate to the directory where you want to download the script using the cd command.
  Run the command:
  
- bash
+
 
         git clone https://github.com/username/passthewall.git
 
@@ -57,7 +57,7 @@ Linux
         Navigate to the directory where you want to download the script using the cd command.
         Run the command:
 
-        bash
+        
 
         git clone https://github.com/username/passthewall.git
 
@@ -67,7 +67,7 @@ Downloading as TAR.GZ:
    Click on the "Code" button and select "Download TAR.GZ".
    Extract the TAR.GZ file using:
 
-    bash
+    
 
     tar -xvzf passthewall.tar.gz
 Mac
@@ -77,7 +77,7 @@ Mac
         Navigate to the directory where you want to download the script using the cd command.
         Run the command:
 
-        bash
+       
 
         git clone https://github.com/username/passthewall.git
 
@@ -92,6 +92,6 @@ Post-Download Steps
    Navigate to the downloaded script directory in your terminal or command prompt.
    Run the script using:
 
-    bash
+
 
     python passthewall.py
