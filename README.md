@@ -1,5 +1,6 @@
 # passthewall
-Overview
+Overview:
+
 The passthwall.py script is a command-line tool designed for cracking passwords and hashes using two primary methods: brute-force attacks and dictionary attacks. The script is implemented in Python and utilizes multi-threading to enhance performance, allowing it to attempt multiple password guesses simultaneously. Below is a detailed description of its components and functionality:
 
 Key Features:
