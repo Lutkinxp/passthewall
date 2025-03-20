@@ -1,9 +1,9 @@
 # passthewall
-Overview:
+# Overview:
 
 The passthwall.py script is a command-line tool designed for cracking passwords and hashes using two primary methods: brute-force attacks and dictionary attacks. The script is implemented in Python and utilizes multi-threading to enhance performance, allowing it to attempt multiple password guesses simultaneously. Below is a detailed description of its components and functionality:
 
-Key Features:
+# Key Features:
 
    Password and Hash Cracking:
         The script can crack both plain text passwords and hashed passwords (MD5, SHA256, NTLM).
@@ -29,7 +29,7 @@ Key Features:
         The script logs important events and statuses, such as the start of attacks, successful cracks, and errors (e.g., file not found).
         Logging is configurable, allowing users to see detailed output during execution.
 
-Usage:
+# Usage:
 
 The script is executed from the command line with the following parameters:
 
@@ -45,11 +45,12 @@ Example Command:
 
     python passthwall.py <target> <max_length> <num_threads> --charset <charset> --dictionary <dictionary_file> --timeout <timeout> --hash <hash_type>
 
-Conclusion:
+# Conclusion:
 
 The passthwall.py script is a powerful and flexible tool for password recovery, suitable for security professionals and ethical hackers. It combines brute-force and dictionary attack methods, making it versatile for various scenarios. The use of multi-threading and progress tracking enhances its efficiency and user experience.
 
 
+# Installation
 
  Steps to Download the "passthewall" Script
 
@@ -65,7 +66,7 @@ The passthwall.py script is a powerful and flexible tool for password recovery, 
 
     git clone https://github.com/Lutkinxp/passthewall.git
 
-Downloading as ZIP:
+ Downloading as ZIP:
    Go to the repository page in your web browser.
    Click on the "Code" button and select "Download ZIP".
    Extract the ZIP file to your desired location.
@@ -82,7 +83,7 @@ Linux
 
     git clone https://github.com/Lutkinxp/passthewall.git
 
-Downloading as TAR.GZ:
+ Downloading as TAR.GZ:
 
    Go to the repository page in your web browser.
    Click on the "Code" button and select "Download TAR.GZ".
@@ -107,7 +108,7 @@ Mac
         Click on the "Code" button and select "Download ZIP".
         Extract the ZIP file by double-clicking it in Finder.
 
-Post-Download Steps
+# Post-Download Steps
 
    Ensure you have Python installed on your system.
    Navigate to the downloaded script directory in your terminal or command prompt.
