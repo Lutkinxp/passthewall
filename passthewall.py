@@ -19,6 +19,21 @@ stop_event = threading.Event()  # Used for timeout handling
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+def welcome_animation():
+    """Display a welcome animation with a warning message."""
+    welcome_text = [
+        "Welcome to the Password Cracker!",
+        "This tool can perform both brute-force and dictionary attacks.",
+        "Please ensure you have the necessary permissions to crack the password.",
+        "WARNING: Unauthorized use of this tool is illegal and unethical.",
+        "Use this tool responsibly and only on systems you own or have explicit permission to test.",
+        "Let's get started..."
+    ]
+    
+    for line in welcome_text:
+        print("\n" + line)
+        time.sleep(1)  # Pause for 1 second between lines
+
 def hash_password(plaintext, hash_type):
     """Generate hash from a plaintext password to compare against."""
     if hash_type == "md5":
@@ -81,6 +96,8 @@ def dictionary_attack(target, dictionary_file, hash_type=None):
         sys.exit(1)
 
 def main():
+    welcome_animation()  # Call the welcome animation
+
     parser = argparse.ArgumentParser(description="Brute-force & Dictionary-based password and hash cracker")
     parser.add_argument("target", help="The target password or hash to crack")
     parser.add_argument("max_length", type=int, help="Maximum length of the password to try")
