@@ -5,27 +5,27 @@ The passthwall.py script is a command-line tool designed for cracking passwords 
 
 # Key Features:
 
-   Password and Hash Cracking:
+   1. Password and Hash Cracking:
         The script can crack both plain text passwords and hashed passwords (MD5, SHA256, NTLM).
         Users can specify whether they are cracking a password or a hash.
 
-   Brute-Force Attack:
+   2. Brute-Force Attack:
         The script generates all possible combinations of characters up to a specified maximum length.
         It supports a customizable character set, which can include letters, digits, and punctuation.
         Multi-threading is employed to distribute the workload across multiple threads, significantly speeding up the cracking process.
 
-   Dictionary Attack:
+   3. Dictionary Attack:
         The script can read from a specified dictionary file containing potential passwords.
         It attempts to match each password in the dictionary against the target password or hash.
 
-   Progress Tracking:
+   4. Progress Tracking:
         The script uses the tqdm library to provide a visual progress bar that updates in real-time as attempts are made.
         It tracks the number of attempts made and displays this information to the user.
 
-   Timeout Handling:
+   5. Timeout Handling:
         Users can specify a timeout period for the brute-force attack. If the attack exceeds this duration, it will be terminated gracefully.
 
-   Logging:
+   6. Logging:
         The script logs important events and statuses, such as the start of attacks, successful cracks, and errors (e.g., file not found).
         Logging is configurable, allowing users to see detailed output during execution.
 
